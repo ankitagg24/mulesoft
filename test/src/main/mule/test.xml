@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="testFlow" doc:id="fc74f290-8ccd-42e8-afd0-3b7d98cf4926" >
+		<scheduler doc:name="Scheduler" doc:id="54957ead-f573-4478-8f2b-35cd1520849e" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="2" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="48721d47-8628-4b45-b5c9-fb227034200d" message="Testing for CI/CD model"/>
+	</flow>
+</mule>
