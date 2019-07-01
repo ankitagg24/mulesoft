@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>test</artifactId>
+	<artifactId>testtt</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>test</name>
+	<name>testtt</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,7 +31,7 @@
 						<muleVersion>4.2</muleVersion>
 						<username>agg24ankit</username>
 						<password>Suksh@m123</password>
-						<applicationName>Mule</applicationName>
+						<applicationName>testtt</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
 				</configuration>
