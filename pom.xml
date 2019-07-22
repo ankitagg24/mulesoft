@@ -32,6 +32,8 @@
 						<password>Suksh@m123</password>
 						<applicationName>UsecaseCICDdemo</applicationName>
 						<environment>Sandbox</environment>
+						<workerType>Micro</workerType>
+                        <workers>1</workers>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
