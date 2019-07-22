@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>Usecase_CICD_demo</artifactId>
+	<artifactId>UsecaseCICDdemo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>Usecase_CICD_demo</name>
+	<name>UsecaseCICDdemo</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +30,7 @@
 						<muleVersion>4.2.0</muleVersion>
 						<username>ankitagg</username>
 						<password>Suksh@m123</password>
-						<applicationName>Usecase_CICD_demo</applicationName>
+						<applicationName>UsecaseCICDdemo</applicationName>
 						<environment>Sandbox</environment>
 					</cloudHubDeployment>
 				</configuration>
